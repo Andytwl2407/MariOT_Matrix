@@ -23,15 +23,15 @@ const config = {
   organizationName: 'Andytwl2407', // Usually your GitHub org/user name.
   projectName: 'MariOT_Matrix', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-
+  onBrokenLinks: 'warn',
+  trailingSlash: false,
   markdown: {
     hooks: {
         onBrokenMarkdownLinks: 'warn',   // or `throw' or `ignore'
     }
   },
-  
-  
+
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -40,8 +40,8 @@ const config = {
     locales: ['en'],
   },
 
- 
-   
+
+
   presets: [
     [
       'classic',
