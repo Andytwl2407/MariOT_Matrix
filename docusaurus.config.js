@@ -123,7 +123,7 @@ const config = {
 
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} MariOT Matrix by iTrust, SUTD.`,
+        copyright: `<strong>For More Information:</strong> T. W. L. Andy, A. Yousaf, L. Feng and J. Zhou, MariOT Matrix for Maritime Cybersecurity Journal of Transportation Security, Vol. 19, 33, 2026.<br/> DOI: <a href="https://doi.org/10.1007/s12198-026-00354-x">https://doi.org/10.1007/s12198-026-00354-x</a> <br/>Copyright © ${new Date().getFullYear()} MariOT Matrix by iTrust, SUTD.`,
       },
       prism: {
         theme: prismThemes.github,
